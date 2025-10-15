@@ -1,19 +1,52 @@
-body{
+html {
     max-width: 1248px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Cuprum", "sans-serif";
     line-height: 1.7;
     margin: 0 auto;
+    padding: 0;
 }
-.main{
-    /*overflow: auto;*/
+
+body {
+    margin-left: 15px;
 }
+
 .img {
-    height: 100%;
-    float:left;
+    width: 650px;
+    float: right;
     margin: 0 30px 10px 0;
 }
 
-.dropdown{
-    font-size: 20px;
-    font-weight: bold;
+.buttons {
+
+    margin: 30px 0;
+
+    a {
+        text-decoration: none;
+        color: darkslategray;
+        margin-right: 10px;
+
+        padding: 10px;
+        font-size: 20px;
+        font-weight: normal;
+        border: darkslategray 2px solid;
+    }
+}
+
+p, .description {
+    font-size: 18px;
+}
+
+
+ul {
+    padding-left: 14px;
+}
+
+
+.hide-list {
+    display: none;
+}
+
+.select-button {
+    background: rgba(248, 255, 240, 0.75);
+    color: darkslategray;
 }

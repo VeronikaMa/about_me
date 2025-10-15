@@ -4,51 +4,49 @@
     <meta charset="UTF-8">
     <title>Обо мне</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&family=El+Messiri:wght@400..700&display=swap');
     </style>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-    </style>
+
     <link rel="stylesheet" type="text/css" href="assets/css/css.css">
 
 </head>
 <body>
 <div class="main">
 
+    <img src="assets/image/photo.jpg" alt="Я" title="Я" class="img">
     <h1>Майорова Вероника</h1>
 
-    <img src="assets/image/111.jpg" alt="Я" title="Я" class="img">
+    <p>Меня зовут Вероника, мне 28 лет и я живу в Челябинске.</p>
+    <p>После школы поступила в Миасский геологоразведочный колледж, где получила специальность «техник-программист».
+        Позже продолжила обучение в МФ ЧелГУ по направлению «Прикладная математика и информатика».</p>
 
-    <p>Меня зовут Вероника, мне 28 лет и я живу в Челябинске.
-    После школы поступила в Миасский геологоразведочный колледж, где получила специальность «техник-программист». Позже продолжила обучение в МФ ЧелГУ по направлению «Прикладная математика и информатика».</br>
+    <p>Мне нравится узнавать новое, путешествовать и проводить время с близкими людьми. В свободное время катаюсь на
+        велосипеде, осваиваю игру на укулеле, читаю книги и смотрю фильмы.</p>
 
-    Мне нравится узнавать новое, путешествовать и проводить время с близкими людьми. В свободное время катаюсь на велосипеде, осваиваю игру на укулеле, читаю книги и смотрю фильмы.</br>
-
-    Больше всего ценю спокойные вечера, искренность, добрый юмор и простые, но настоящие моменты в общении с людьми.</p>
+    <p>Больше всего ценю спокойные вечера, искренность, добрый юмор и простые, но настоящие моменты в общении с
+        людьми.</p>
 
 </div>
-
-<p class="dropdown">Больше информации...</p>
-<div class="description" id="description" style="display: none">
-    <h3>Навыки:</h3>
-        <ul>
-            <li>Backend-разработка: PHP, SQL, Docker, Drupal</li>
-            <li>Работа с API и базами данных</li>
-            <li>Планирование и организация дел</li>
-            <li>Обучение новым вещам</li>
-        </ul>
-    <h3>Фильмы:</h3>
-    <ul>
-        <li>Зелёная миля</li>
+<div class="buttons">
+    <a href="#" class="dropdown" id="skills">Навыки</a>
+    <a href="#" class="dropdown" id="films">Фильмы</a>
+    <a href="#" class="dropdown" id="books">Книги</a>
+</div>
+<div class="description">
+    <ul class="list hide-list skills">
+        <li>Backend-разработка: PHP, SQL, Docker, Drupal</li>
+        <li>Работа с API и базами данных</li>
+        <li>Планирование и организация дел</li>
+        <li>Способность к обучению</li>
+    </ul>
+    <ul class="list hide-list films">
         <li>Билли Эллиот</li>
         <li>Шоу Трумана</li>
         <li>Лука</li>
         <li>Бери да помни</li>
     </ul>
-    <h3>Последние прочитанные книги:</h3>
-    <ul>
-        <li>Макс Фрай</li>
-        <li>Марк Медовник — Жидкости </li>
+    <ul class="list hide-list books">
+        <li>Марк Медовник — Жидкости</li>
         <li>Оливер Сакс — Антрополог на марсе</li>
         <li>Стивен Фрай — Миф. Греческие мифы в пересказе</li>
     </ul>
