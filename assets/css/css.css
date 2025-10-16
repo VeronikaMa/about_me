@@ -1,6 +1,6 @@
 html {
     max-width: 1248px;
-    font-family: "Cuprum", "sans-serif";
+    font-family: "Open Sans", "sans-serif";
     line-height: 1.7;
     margin: 0 auto;
     padding: 0;
@@ -11,24 +11,33 @@ body {
 }
 
 .img {
-    width: 650px;
+    width: 400px;
     float: right;
-    margin: 0 30px 10px 0;
+    margin: 0 0 10px 30px;
+    border-top-right-radius: 63px;
+    border-bottom-left-radius: 63px;
+}
+h1{
+    font-size: 32px;
+    font-weight: normal;
 }
 
 .buttons {
-
     margin: 30px 0;
-
-    a {
+    .dropdown {
+        display: inline-block;
         text-decoration: none;
         color: darkslategray;
         margin-right: 10px;
-
-        padding: 10px;
+        margin-bottom: 10px;
+        padding: 5px;
         font-size: 20px;
         font-weight: normal;
         border: darkslategray 2px solid;
+        border-top-right-radius: 14px;
+        border-bottom-left-radius: 14px;
+        width: 100px;
+        text-align: center;
     }
 }
 
@@ -36,11 +45,10 @@ p, .description {
     font-size: 18px;
 }
 
-
 ul {
-    padding-left: 14px;
+    overflow: hidden;
+    padding-left: 20px;
 }
-
 
 .hide-list {
     display: none;
